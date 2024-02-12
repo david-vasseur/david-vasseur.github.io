@@ -489,3 +489,64 @@ h4 {
 .content input:not(:checked) + label:hover span {
     color: #202020;
 }
+
+/* ------------------------------------------------ CONTACT ----------------------------------------- */
+
+.content_4 {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content_4 > .contact-title {
+    width: 70%;
+    padding: 2rem;
+    box-shadow: 4px 4px 15px #202020;
+    margin: 1rem auto;
+    border: #FFC3C1 solid .2rem;
+}
+
+.content_4 > .contact-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.content_4 > .contact-link > span {
+    width: 200px;
+}
+
+.content_4 > .contact-form {
+    margin: 2rem;
+    width: 100%;
+    height: 400px;
+    background-color: #C6E6E1;
+    display: flex;
+}
+
+#name, #firstanme, #email, #society {
+    display: block;
+    height: 60px;
+    width: 150px;
+    background-color: #C6E6E1;
+}
+
+/* -------------------------- QUE AVEC PHP ----------------------- */
+.message-ok, .message-failed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #C6E6E1;
+    height: 30%;
+    width: 40%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: #FFC3C1 solid 2px;
+    display: none;
+}
+
+/* ------------------------------------------------------------------- */
